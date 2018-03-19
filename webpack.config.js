@@ -15,7 +15,11 @@ module.exports = {
         options: {
           presets: ['env', 'react']
         }
-      }
+      },
+      {
+        test: /\.(scss|css)$/,
+        loaders: ['style-loader', 'css-loader'],
+      },
     ]
   },
   resolve: {
