@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles.css'
+import '../styles.css';
+import '../styles.scss';
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -8,12 +9,12 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div className="navbar justify-content-between">
-        <div className="navbar-brand">Daniel Sanchez</div>
-        <div className="buttons d-flex justify-content-around col-sm-5">
-          <button className="btn-outline-dark">About</button>
-          <button className="btn-outline-dark">Portfolio</button>
-          <button className="btn-outline-dark">Contact</button>
+      <div className="navbar justify-content-around test">
+        <div className="navbar-brand col-sm-2">Daniel Sanchez</div>
+        <div className="buttons d-flex justify-content-around offset-sm-6 col-sm-3">
+          <button className="btn-sm btn-outline-dark col-sm-3">About</button>
+          <button className="btn-sm btn-outline-dark col-sm-3">Portfolio</button>
+          <button className="btn-sm btn-outline-dark col-sm-3">Contact</button>
         </div>
       </div>
     )
