@@ -12,9 +12,7 @@ class App extends React.Component {
         <Navbar />
         <Header />
         <About />
-        <hr/>
         <Portfolio />
-        <hr/>
         <Contact />
       </div>
     )

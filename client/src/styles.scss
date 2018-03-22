@@ -6,6 +6,9 @@ $secondary-color: #E9ECEF;
 $primary-font: 'Lato', sans-serif;
 $secondary-font: 'Nunito', sans-serif;
 
+// Sections //
+$section-height: 400px;
+
 .test {
   background-color: $secondary-color;
 }
@@ -22,6 +25,7 @@ body {
 
 .header-text {
   font-family: $primary-font;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -69,7 +73,7 @@ body {
 
 // ABOUT ME //
 .about {
-  min-height: 400px;
+  min-height: $section-height;
 }
 
 .about-left {
@@ -106,4 +110,18 @@ body {
   .about-right {
     padding-bottom: 5%;
   }
+}
+
+// PORTFOLIO //
+.portfolio {
+  height: $section-height;
+  margin-top: 2rem;
+  padding-top: 50px;
+}
+
+// CONTACT //
+.contact {
+  height: $section-height;
+  margin-top: 2rem;
+  padding-top: 50px;
 }

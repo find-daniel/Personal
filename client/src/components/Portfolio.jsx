@@ -8,8 +8,10 @@ class Portfolio extends React.Component {
   render() {
     return (
       <section id="portfolio">
-        <div className="container">
-          <h1>This will be Portfolio</h1>
+        <div className="container portfolio test">
+          <div>
+            <h2 className="header-text">Portfolio</h2>
+          </div>
         </div>
       </section>
     )

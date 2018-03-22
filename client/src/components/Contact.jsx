@@ -8,8 +8,10 @@ class Contact extends React.Component {
   render() {
     return (
       <section id="contact">
-        <div className="container">
-          <h1>This will be Contact me</h1>
+        <div className="container contact test">
+          <div>
+            <h2 className="header-text">Contact Me</h2>
+          </div>
         </div>
       </section>
     )
