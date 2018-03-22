@@ -1,22 +1,43 @@
-$primary: white;
-$secondary: #E9ECEF;
+// Colors //
+$primary-color: white;
+$secondary-color: #E9ECEF;
+
+// Fonts //
+$primary-font: 'Lato', sans-serif;
+$secondary-font: 'Nunito', sans-serif;
 
 .test {
-  background-color: $secondary;
+  background-color: $secondary-color;
 }
 
 .wireframe {
   border: 1px solid black;
 }
 
+body {
+  padding-top: 50px;
+}
+
+// FONTS //
+
+.header-text {
+  font-family: $primary-font;
+  text-transform: uppercase;
+}
+
+.small-text {
+  font-family: $secondary-font;
+}
+
 // NAV //
 .navbar-custom {
   text-transform: uppercase;
+  background-color: white;
+  height: 50px;
 }
 
 .nav-btn {
   color: black;
-  margin-right: 2rem;
 }
 
 .nav-btn:hover {
@@ -30,16 +51,44 @@ $secondary: #E9ECEF;
 
 @media (max-width: 991.98px) {
   .nav-li:hover {
-    background-color: $secondary
+    background-color: $secondary-color
+  }
+}
+
+@media (min-width: 991.98px) {
+  .nav-btn {
+    margin-left: 2rem;
   }
 }
 
 // HEADER //
 .jumbotron-custom {
   text-align: center;
+  background-color: yellow;
 }
 
 // ABOUT ME //
+.about {
+  min-height: 400px;
+}
+
+.about-left {
+  display: flex;
+  justify-content: center;
+}
+
+.about-right {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.profile {
+  height: 275px;
+  margin-top: 20%;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 
 @media (min-width: 991.98px) {
   .about {
@@ -48,7 +97,13 @@ $secondary: #E9ECEF;
   }
 }
 
-.profile {
-  margin-top: 1rem;
-  border-radius: 50%;
+@media (max-width: 991.98px) {
+  .profile {
+    height: 200px;
+    margin-top: 5%;
+  }
+
+  .about-right {
+    padding-bottom: 5%;
+  }
 }

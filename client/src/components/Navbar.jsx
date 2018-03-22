@@ -9,7 +9,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="navbar navbar-custom navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-custom navbar-expand-lg navbar-light fixed-top">
         <div className="container">
           <div className="navbar-header">
             <a href="#" className="navbar-brand">Daniel Sanchez</a>
