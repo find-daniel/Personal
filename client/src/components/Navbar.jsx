@@ -9,14 +9,29 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div className="navbar justify-content-around test">
-        <div className="navbar-brand col-sm-2">Daniel Sanchez</div>
-        <div className="buttons d-flex justify-content-around offset-sm-6 col-sm-3">
-          <button className="btn-sm btn-outline-dark col-sm-3">About</button>
-          <button className="btn-sm btn-outline-dark col-sm-3">Portfolio</button>
-          <button className="btn-sm btn-outline-dark col-sm-3">Contact</button>
-        </div>
-      </div>
+      <nav className="navbar navbar-custom navbar-expand-lg navbar-light">
+        <div className="container">
+          <div className="navbar-header">
+            <a href="#" className="navbar-brand">Daniel Sanchez</a>
+          </div>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navbar">
+              <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse justify-content-end" id="navbarToggle">
+            <ul className="nav navbar-nav justify-content-around">
+              <li className="nav-li">
+                <a className="nav-btn" href="#about">About</a>
+              </li>
+              <li className="nav-li">
+                <a className="nav-btn" href="#portfolio">Portfolio</a>
+              </li>
+              <li className="nav-li">
+                <a className="nav-btn" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+      </nav>
     )
   }
 }

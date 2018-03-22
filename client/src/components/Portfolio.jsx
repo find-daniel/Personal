@@ -7,9 +7,11 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>This will be Portfolio</h1>
-      </div>
+      <section id="portfolio">
+        <div className="container">
+          <h1>This will be Portfolio</h1>
+        </div>
+      </section>
     )
   }
 }

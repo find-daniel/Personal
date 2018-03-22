@@ -1,6 +1,54 @@
 $primary: white;
-$secondary: lightblue;
+$secondary: #E9ECEF;
 
 .test {
   background-color: $secondary;
+}
+
+.wireframe {
+  border: 1px solid black;
+}
+
+// NAV //
+.navbar-custom {
+  text-transform: uppercase;
+}
+
+.nav-btn {
+  color: black;
+  margin-right: 2rem;
+}
+
+.nav-btn:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-li {
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .nav-li:hover {
+    background-color: $secondary
+  }
+}
+
+// HEADER //
+.jumbotron-custom {
+  text-align: center;
+}
+
+// ABOUT ME //
+
+@media (min-width: 991.98px) {
+  .about {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.profile {
+  margin-top: 1rem;
+  border-radius: 50%;
 }
