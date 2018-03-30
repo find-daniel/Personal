@@ -8,7 +8,7 @@ class Contact extends React.Component {
   render() {
     return (
       <section id="contact">
-        <div className="container contact test">
+        <div className="container-fluid contact test">
           <div>
             <h2 className="header-text">Contact Me</h2>
           </div>
