@@ -32,8 +32,9 @@ $section-height: 400px;
 // NAV //
 .navbar-custom {
   text-transform: uppercase;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.97);
   min-height: 50px;
+  box-shadow: 0 .5px 1px rgba(0,0,0,0.10), 0 .5px .5px rgba(0,0,0,0.20);
 }
 .nav-btn {
   color: black;
@@ -60,7 +61,7 @@ $section-height: 400px;
 .jumbotron-custom {
   text-align: center;
   height: 90vh;
-  background-color: yellow;
+  background-color: #BFDFFF;
   margin-top: 56px;
 }
 
