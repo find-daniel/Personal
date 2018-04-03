@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles.scss';
 
 class About extends React.Component {
   constructor(props) {
@@ -8,7 +9,7 @@ class About extends React.Component {
   render() {
     return (
       <section id="about" className="">
-        <div className="container test about">
+        <div className="container about">
           <div className="col-lg-4 about-left">
             <img className="img-fluid profile" src="https://i.imgur.com/UuUso61.png" alt="Photo of me"/>
           </div>

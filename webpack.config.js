@@ -20,6 +20,10 @@ module.exports = {
         test: /\.(scss|css)$/,
         loaders: ['style-loader', 'css-loader', 'sass-loader'],
       },
+      {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url-loader?limit=1000000&mimetype=image/svg+xml"
+      },
     ]
   },
   resolve: {
