@@ -9,8 +9,8 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <section id="top">
-        <nav className="navbar navbar-custom navbar-expand-lg navbar-light fixed-top">
+      <section id="nav">
+        <nav className="navbar navbar-custom navbar-expand-lg navbar-dark bg-dark fixed-top">
           <div className="container">
             <div className="navbar-header">
               <a href="#top" className="navbar-brand">Daniel Sanchez</a>

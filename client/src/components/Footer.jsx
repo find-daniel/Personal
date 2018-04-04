@@ -33,7 +33,7 @@ class Footer extends React.Component {
                 </a>
               </div>
             </div>
-            <p className="small-text"> © Daniel Sanchez 2018 </p>
+            <p className="small-text footer-text"> © Daniel Sanchez 2018 </p>
           </div>
         </footer>
       </section>

@@ -9,8 +9,15 @@ class Header extends React.Component {
   render() {
     return (
       <div className="jumbotron jumbotron-fluid jumbotron-custom">
-        <h1 className="display-4">Hello, I'm Daniel</h1>
-        <p className="lead">Fullstack Web Developer & UI / UX Enthusiast</p>
+        <div className="jumbotron-text container">
+          <h1 className="display-4">Hello, I'm Daniel</h1>
+          <p className="lead">Fullstack Web Developer & UI / UX Enthusiast</p>
+        </div>
+        <div className="container goDown">
+          <a href="#about">
+            <span className="far fa-arrow-alt-circle-down fa-3x" color="#FFF"></span>
+          </a>
+        </div>
       </div>
     )
   }

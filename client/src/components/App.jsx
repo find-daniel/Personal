@@ -6,6 +6,9 @@ import Tech from './Tech';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
+import {configureAnchors} from 'react-scrollable-anchor';
+
+configureAnchors({offset: -50});
 
 class App extends React.Component {
   render() {

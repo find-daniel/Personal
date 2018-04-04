@@ -3,15 +3,16 @@ import '../styles.scss';
 import bootstrap from '../images/bootstrap-solid.svg';
 import webpack from '../images/webpack.svg';
 import mysql from '../images/mysql.svg';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class Tech extends React.Component {
   render() {
     return (
-      <section id="tech">
-        <div className="tech test">
+      <ScrollableAnchor id="tech">
+        <section className="tech test">
           <h2 className="header-text">Some tech I enjoy using</h2>
           <div className="container tech-box">
-            <div className="tech-grid wireframe">
+            <div className="tech-grid">
               <div className="tech-item">
                 <span class="fab fa-js" title="Javascript ES6"></span>
               </div>
@@ -28,7 +29,7 @@ class Tech extends React.Component {
                 <span class="fab fa-css3-alt" title="CSS3"></span>
               </div>
             </div>
-            <div className="tech-grid wireframe">
+            <div className="tech-grid">
               <div className="tech-item">
                 <span class="fab fa-sass" title="SCSS"></span>
               </div>
@@ -49,8 +50,8 @@ class Tech extends React.Component {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </ScrollableAnchor>
     )
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import resume from '../files/daniel-sanchez-resume.pdf'
 import '../styles.scss';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class About extends React.Component {
   constructor(props) {
@@ -9,8 +10,8 @@ class About extends React.Component {
 
   render() {
     return (
-      <section id="about" className="">
-        <div className="container about">
+      <ScrollableAnchor id="about">
+        <section className="container about">
           <div className="col-lg-4 about-left">
             <img className="img-fluid profile" src="https://i.imgur.com/UuUso61.png" alt="Photo of me"/>
           </div>
@@ -31,8 +32,8 @@ class About extends React.Component {
               </button>
             </a>
           </div>
-        </div>
-      </section>
+        </section>
+      </ScrollableAnchor>
     )
   }
 }

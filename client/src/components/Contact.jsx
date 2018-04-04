@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles.scss';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -8,8 +9,8 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <section id="contact">
-        <div className="container-fluid contact test">
+      <ScrollableAnchor id="contact">
+        <section className="container-fluid contact test">
           <h2 className="header-text">Contact Me</h2>
           <div className="container d-flex justify-content-center">
             <div className="contact-body col-sm-5">
@@ -28,8 +29,8 @@ class Contact extends React.Component {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </ScrollableAnchor>
     )
   }
 }
