@@ -22,7 +22,7 @@ class Portfolio extends React.Component {
                 <h5 className="card-title">Wayfare</h5>
                 <p className="card-text"> Work-stay app for travelers looking to barter skills/services in return for lodging. </p>
                 <div className="text-center">
-                  <a href="" className="btn button btn-outline-dark btn-sm">See the Code</a>
+                  <a href="https://github.com/find-daniel/wayfare-ui" target="_blank" className="btn button btn-outline-dark btn-sm">See the Code</a>
                 </div>
               </div>
             </div>
@@ -31,7 +31,7 @@ class Portfolio extends React.Component {
                 <h5 className="card-title">Codesling.io</h5>
                 <p className="card-text"> Typeracer for algo challenges - see who can solve the problem first! </p>
                 <div className="text-center">
-                  <a href="" className="btn button btn-outline-dark btn-sm">See the Code</a>
+                  <a href="https://github.com/find-daniel/codesling.io-ui" target="_blank" className="btn button btn-outline-dark btn-sm">See the Code</a>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@ class Portfolio extends React.Component {
                 <h5 className="card-title">FoodThoughts</h5>
                 <p className="card-text"> Platform for searching and reviewing restaurants.  </p>
                 <div className="text-center">
-                  <a href="" className="btn button btn-outline-dark btn-sm">See the Code</a>
+                  <a href="https://github.com/find-daniel/Food-Thoughts" target="_blank" className="btn button btn-outline-dark btn-sm">See the Code</a>
                 </div>
               </div>
             </div>
