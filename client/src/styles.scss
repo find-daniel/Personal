@@ -91,6 +91,12 @@ $section-height: 400px;
   width: 50px;
 }
 
+@media (max-width:  991.98px) {
+  .goDown {
+    margin-top: 225px;
+  }
+}
+
 // ABOUT ME //
 .about {
   min-height: $section-height;
