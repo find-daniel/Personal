@@ -27,7 +27,7 @@ class About extends React.Component {
               When I'm not coding you can find me rock climbing or archiving my life through <a href="https://www.instagram.com/mr.danielsanchez">photography</a>!
             </p>
             <a href={resume} download>
-              <button className="button btn btn-outline-dark">
+              <button className="button btn btn-outline-dark col-sm-4">
                 Resume <i class="far fa-file-pdf"></i>
               </button>
             </a>
