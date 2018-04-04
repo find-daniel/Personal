@@ -16,7 +16,7 @@ class Contact extends React.Component {
               <div className="text-center">
                 <p className="small-text">
                   I'm currently open to new opportunities!
-                  Feel free to drop me an email if you wanna chat or let me know how I can help you.
+                  Feel free to shoot me an email if you wanna chat or let me know how I can help you.
                 </p>
               </div>
               <div className="text-center">
