@@ -44,7 +44,7 @@ $section-height: 400px;
   box-shadow: 0 .5px 1px rgba(0,0,0,0.10), 0 .5px .5px rgba(0,0,0,0.20);
 }
 .bg-dark {
-  background-color: $primary-color !important;
+  background-color: rgba($color: #222529, $alpha: 0.99) !important;
 }
 .nav-btn {
   color: #FFF;
